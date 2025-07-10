@@ -1,8 +1,10 @@
 # Echo SCS Session Middleware
 
-[![GoDoc](https://godoc.org/github.com/spazzymoto/echo-scs-session?status.png)](https://pkg.go.dev/github.com/spazzymoto/echo-scs-session?tab=doc)
-[![Go report card](https://goreportcard.com/badge/github.com/spazzymoto/echo-scs-session)](https://goreportcard.com/report/github.com/spazzymoto/echo-scs-session)
-[![Test coverage](http://gocover.io/_badge/github.com/spazzymoto/echo-scs-session)](https://gocover.io/github.com/spazzymoto/echo-scs-session)
+[![GoDoc](https://godoc.org/github.com/wainuiomata/echo-scs-session?status.png)](https://pkg.go.dev/github.com/wainuiomata/echo-scs-session?tab=doc)
+[![Go report card](https://goreportcard.com/badge/github.com/spazzymoto/echo-scs-session)](https://goreportcard.com/report/github.com/wainuiomata/echo-scs-session)
+[![Test coverage](http://gocover.io/_badge/github.com/spazzymoto/echo-scs-session)](https://gocover.io/github.com/wainuiomata/echo-scs-session)
+
+Note this is a fork, credit goes to [spazzymoto](https://github.com/spazzymoto) for creating the original package [echo-scs-session](https://github.com/spazzymoto/scs).
 
 All credit must go to [alexedwards](https://github.com/alexedwards) for his great package [scs](https://github.com/alexedwards/scs)
 
@@ -23,10 +25,10 @@ All credit must go to [alexedwards](https://github.com/alexedwards) for his grea
 
 ### Installation
 
-This package requires Go 1.12 or newer.
+This package requires Go 1.24 or newer.
 
 ```
-$ go get github.com/spazzymoto/echo-scs-session
+$ go get github.com/wainuiomata/echo-scs-session
 ```
 
 ### Basic Use
@@ -41,7 +43,7 @@ import (
 
 	"github.com/alexedwards/scs/v2"
 	"github.com/labstack/echo/v4"
-	"github.com/spazzymoto/echo-scs-session"
+	"github.com/wainuiomata/echo-scs-session"
 )
 
 var sessionManager *scs.SessionManager
