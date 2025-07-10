@@ -1,0 +1,17 @@
+# Changelog
+
+## v1.1.0
+
+- Bump Go version to 1.24
+- Fix CVE in jwt-go: CVE-2020-26160, CVE-2024-51744
+- Fix CVE in yaml.v2: WS-2021-0200, CVE-2019-11254, CVE-2021-4235
+- Run tests and linting using Github Actions
+- Run Dependabot weekly
+
+Thanks to all contributors.
+
+## v1.0.0
+
+- Original release by spazzymoto
+
+Thanks to all contributors.
