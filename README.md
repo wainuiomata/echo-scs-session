@@ -4,7 +4,7 @@
 [![Go report card](https://goreportcard.com/badge/github.com/spazzymoto/echo-scs-session)](https://goreportcard.com/report/github.com/wainuiomata/echo-scs-session)
 [![Test coverage](http://gocover.io/_badge/github.com/spazzymoto/echo-scs-session)](https://gocover.io/github.com/wainuiomata/echo-scs-session)
 
-Note this is a fork, credit goes to [spazzymoto](https://github.com/spazzymoto) for creating the original package [echo-scs-session](https://github.com/spazzymoto/scs).
+Note this is a fork, credit goes to [spazzymoto](https://github.com/spazzymoto) for creating the original package [spazzymoto/echo-scs-session](https://github.com/spazzymoto/scs).
 
 All credit must go to [alexedwards](https://github.com/alexedwards) for his great package [scs](https://github.com/alexedwards/scs)
 
