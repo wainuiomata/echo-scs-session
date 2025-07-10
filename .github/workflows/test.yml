@@ -1,0 +1,20 @@
+name: test
+
+on: push
+
+jobs:
+  go-test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Go
+        uses: actions/setup-go@v5
+        with:
+          go-version-file: go.mod
+
+      - name: Run Go build
+        run: go build -v ./...
+
+      - name: Run Go tests
+        uses: robherley/go-test-action@v0
