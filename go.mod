@@ -4,7 +4,7 @@ go 1.24.0
 
 require (
 	github.com/alexedwards/scs/v2 v2.9.0
-	github.com/labstack/echo/v4 v4.14.0
+	github.com/labstack/echo/v4 v4.15.1
 	github.com/stretchr/testify v1.11.1
 )
 
