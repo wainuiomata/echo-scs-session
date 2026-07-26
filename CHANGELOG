@@ -1,5 +1,13 @@
 # Changelog
 
+## v1.2.0
+
+- Bump Go version to 1.26
+- Fix Dependabot was stuck because lint stopped working
+- Close a bunch of CVEs that had collected over time
+
+Thanks to all contributors.
+
 ## v1.1.0
 
 - Bump Go version to 1.24
