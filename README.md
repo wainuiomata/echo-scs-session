@@ -1,7 +1,7 @@
 # Echo SCS Session Middleware
 
 [![GoDoc](https://godoc.org/github.com/wainuiomata/echo-scs-session?status.png)](https://pkg.go.dev/github.com/wainuiomata/echo-scs-session?tab=doc)
-[![Test coverage](http://gocover.io/_badge/github.com/wainuiomata/echo-scs-session)](https://gocover.io/github.com/wainuiomata/echo-scs-session)
+[![Test coverage](https://app.gocov.dev/badge/wainuiomata/echo-scs-session.svg)](https://app.gocov.dev/repos/wainuiomata/echo-scs-session?ref=badge)
 
 Note this is a fork, credit goes to [spazzymoto](https://github.com/spazzymoto) for creating the original package [spazzymoto/echo-scs-session](https://github.com/spazzymoto/echo-scs-session).
 

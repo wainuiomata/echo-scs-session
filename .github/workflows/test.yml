@@ -5,6 +5,9 @@ on: push
 jobs:
   go-test:
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      id-token: write
     steps:
       - uses: actions/checkout@v7
 
@@ -18,3 +21,10 @@ jobs:
 
       - name: Run Go tests
         uses: robherley/go-test-action@v1
+        with:
+          testArguments: -covermode=atomic -coverprofile=coverage.out ./...
+
+      - name: Upload coverage to gocov
+        uses: gocov/gocov-action@v1
+        with:
+          files: coverage.out
