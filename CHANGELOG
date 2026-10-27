@@ -1,5 +1,13 @@
 # Changelog
 
+## v1.3.0
+
+- Update dependencies to latest versions
+- Replace broken gocover.io badge with gocov action (thanks to bykclk)
+- Add a Makefile for running basic actions: build, lint, test
+
+Thanks to all contributors.
+
 ## v1.2.0
 
 - Bump Go version to 1.26
